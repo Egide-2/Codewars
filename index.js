@@ -1,10 +1,12 @@
 
-function isPalindrome(x) {
-  x = x.toLowerCase();
-  const b =  x.split('').reverse().join('') ;
-  
-  return x === b
+function removeChar(str){
+if(str.length >= 2 ){
+  return str.slice(1, -1)
+}
+else if(str.length == 2){
+  return ""
   
 }
-
-console.log(isPalindrome('a'))
+  else{
+  }
+};
