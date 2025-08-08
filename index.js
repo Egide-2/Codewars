@@ -1,12 +1,8 @@
 
-function removeChar(str){
-if(str.length >= 2 ){
-  return str.slice(1, -1)
-}
-else if(str.length == 2){
-  return ""
-  
-}
-  else{
-  }
-};
+
+
+  var arr1 = ["4","7",8,9]
+
+  const numbers = arr1.map(Number).reduce((acc,curr)=> acc + curr , 0)
+
+  console.log(numbers)
