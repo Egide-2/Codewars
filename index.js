@@ -6,7 +6,7 @@
 
 
 
-const words = ["hello", "my" ,"name", "is billy"]
-const name = words.join(" ")
+const words = "hello"
+const hello = words.map(wordsew[1])
 
-console.log(name)  
+console.log(hello.toUppercase)
