@@ -76,10 +76,3 @@
 
 // console.log(sayHi())
 
-
-class Ball {
-    getBall( ballType = "regular"){
-        this.ballType == ballType
-    }
-}
-
