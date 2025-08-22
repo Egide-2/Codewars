@@ -76,3 +76,37 @@
 
 // console.log(sayHi())
 
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+
+  get info() {
+    return `${this.name} age is ${this.age}`;
+  }
+}
+
+const p = new Person("john", 34);
+console.log(p.info)
+
+
+
+
+
+
+function outer() {
+    let counter = 70;
+    function inner() {
+        counter++;
+        return counter;
+    }
+    return inner;
+}
+
+const count = outer(); 
+
+console.log(count()); 
+console.log(count()); 
+console.log(count()); 
