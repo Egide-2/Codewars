@@ -12,19 +12,24 @@
 // - `Object.hasOwnProperty(prop)` – checks if a property exists directly on the object
 
 
-const person ={
-    name:"billy",
-    age:67,
-    adress:"kigale",
-    eat:function(){
-        console.log("hello my name is billy i love you")
-    }
-}
+// const person ={
+//     name:"billy",
+//     age:67,
+//     adress:"kigale",
+//     eat:function(){
+//         console.log("hello my name is billy i love you")
+//     }
+// }
 
 
 
 
-const person1 = Object.create(person)
+// const person1 = Object.create(person)
 
 
-console.log(Object.entries(person))
+// console.log(Object.entries(person))
+
+
+
+
+
