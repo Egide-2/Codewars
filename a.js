@@ -21,7 +21,10 @@ const person ={
     }
 }
 
+
+
+
 const person1 = Object.create(person)
 
 
-// console.log(Object.entries(person))
+console.log(Object.entries(person))
